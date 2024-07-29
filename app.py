@@ -126,4 +126,4 @@ if __name__ == "__main__":
         os.makedirs('uploads')
     if not os.path.exists('test'):
         os.makedirs('test')
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=True)
